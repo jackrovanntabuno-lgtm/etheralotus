@@ -816,3 +816,16 @@ section.contact-me {
         margin-bottom: 20px;
     }
 }
+
+/* "Company 1: UP BUSINESS INCUBATOR FOR IT" must be bolded and colored blue "Observations:" and "Learnings:" colored pinkish-red */
+
+.company h4 {
+  font-weight: bold;
+  color: #1E90FF; /* blue */
+  margin-bottom: 10px;
+}
+
+/* Observations and Learnings labels */
+.company p strong {
+  color: #a43f49; /* pinkish-red */
+}
