@@ -829,3 +829,61 @@ section.contact-me {
 .company p strong {
   color: #a43f49; /* pinkish-red */
 }
+
+/*journal placement scanned*/
+
+.journal-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.journal-item {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 48%;
+}
+
+.journal-img + p {
+    margin-top: 15px; /* adjust the value as needed */
+}
+
+/*tech stack*/
+
+.tech-stack {
+  margin-top: 30px;
+}
+
+.tech-stack h5 {
+  font-size: 18px;
+  margin-bottom: 25px;
+  font-weight: 700;
+}
+
+.tech-icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.tech-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 70px; /* adjust size */
+}
+
+.tech-item img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  margin-bottom: 5px;
+}
+
+.tech-item span {
+  font-size: 12px;
+}
+
+
+
